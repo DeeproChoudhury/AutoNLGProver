@@ -6,7 +6,7 @@ MODEL="mistral-large"
 TEMPERATURE=0.0
 REQUEST_TIMEOUT=120
 TYPE="mistral"
-NUM_RUNS=1
+NUM_RUNS=100
 DIRECTORIES="data/full_data/test","data/full_data/valid"
 
 python -m script \
